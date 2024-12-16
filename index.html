@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albion Online - Projeto 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="./logo/logo principal.svg" alt="Albion Online Logo" class="logo">
+        </div>
+    </header>
+    
+    <section class="news">
+        <h2>Notícias Recentes</h2>
+        <div class="news-item">
+            <h3>Nova Expansão Chegando em Breve!</h3>
+            <p>
+                Prepare-se para explorar novas regiões perigosas e desvendar mistérios em Albion Online.
+                A nova expansão será lançada em <strong>15 de janeiro de 2024</strong>.
+            </p>
+        </div>
+        <div class="news-item">
+            <h3>Evento de Natal em Albion</h3>
+            <p>
+                Participe de missões especiais, ganhe recompensas exclusivas e aproveite o clima festivo no evento de Natal de Albion Online.
+            </p>
+        </div>
+    </section>
+    
+    
+
+     <section class="features">
+        <h2>Principais Recursos</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <img src="./logo/craft.jpeg" alt="Crafting">
+                <h3>Crafting</h3>
+                <p>Forje e personalize suas armas e armaduras para dominar o campo de batalha.</p>
+            </div>
+            <div class="feature-item">
+                <img src="./logo/pvp.jpg" alt="PvP">
+                <h3>PvP Intenso</h3>
+                <p>Participe de combates estratégicos contra outros jogadores em arenas e zonas abertas.</p>
+            </div>
+            <div class="feature-item">
+                <img src="./logo/mundoaberto.png" alt="Mundo Aberto">
+                <h3>Mundo Aberto</h3>
+                <p>Explore um vasto mundo sandbox repleto de desafios e oportunidades.</p>
+            </div>
+        </div>
+    </section>
+
+     <section class="testimonials">
+        <h2>O que os jogadores dizem:</h2>
+        <div class="testimonial-item">
+            <p>"Albion Online é o melhor MMORPG que já joguei. A liberdade de personalização é incrível!"</p>
+            <span>- brpolemico </span>
+        </div>
+        <div class="testimonial-item">
+            <p>"As batalhas PvP são épicas e cheias de estratégia. Não consigo parar de jogar!"</p>
+            <span>- Armandillo</span>
+        </div>
+        <div class="testimonial-item">
+            <p>"Jogo totalmente viciante, gosto muito do craft e do full loot!"</p>
+            <span>- Sabotagem </span>
+        </div>
+        <div class="testimonial-item">
+            <p>"Nas minhas folgas, passo o dia inteiro jogando!"</p>
+            <span>- joobXP </span>
+        </div>
+        <div class="testimonial-item">
+            <p>"O melhor game já lançado!"</p>
+            <span>- Zé pequeno </span>
+        </div>
+    </section>
+    
+    
+
+    <main>
+        <section class="carousel-container">
+            <div class="carousel" id="carousel">
+                <div class="carousel-item active">
+                    <img src="./image/principal1.jpeg" alt="Albion Online Image 1">
+                    <p>Explore um mundo aberto cheio de aventuras.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/principal2.jpeg" alt="Albion Online Image 2">
+                    <p>Participe de batalhas épicas em PvP.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/principal3.jpeg" alt="Albion Online Image 3">
+                    <p>Personalize sua jornada com um sistema de classes único.</p>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev" id="prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="next" id="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section class="description">
+            <h2>Sobre Albion Online</h2>
+            <p>
+                Albion Online é um MMORPG sandbox onde os jogadores podem moldar o mundo ao seu redor.
+                Explore terras perigosas, conquiste riquezas, e forje alianças para dominar este vasto universo.
+            </p>
+            <a href="https://albiononline.com/home" class="download-button" target="_blank" rel="noopener noreferrer">
+                Baixar Albion Online
+            </a>
+        </section>
+        
+    </main>
+
+    <div id="countdown-timer">
+        <h2>Próximo Evento Começa Em:</h2>
+        <div class="timer-box">
+            <div class="timer-unit">
+                <span id="days">00</span>
+                <div class="timer-label">Dias</div>
+            </div>
+            <div class="timer-unit">
+                <span id="hours">00</span>
+                <div class="timer-label">Horas</div>
+            </div>
+            <div class="timer-unit">
+                <span id="minutes">00</span>
+                <div class="timer-label">Minutos</div>
+            </div>
+            <div class="timer-unit">
+                <span id="seconds">00</span>
+                <div class="timer-label">Segundos</div>
+            </div>
+        </div>
+    </div>
+    
+    
+  
+
+    <footer class="footer">
+        <p>©2024 Albion Online Showcase. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
